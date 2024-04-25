@@ -13,7 +13,7 @@ function Cards({index, title, description, urlToImage, url, author, publishedAt}
         <Card.Text>
          {(description.slice(0,50))}
         </Card.Text>
-        <a href={url} className='btn btn-success btn-sm'>Show Detail</a>
+        <a href={url} className='btn btn-danger btn-sm'>Show Detail</a>
         <br /><small>{author}</small>
       </Card.Body>
     </Card>
