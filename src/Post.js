@@ -20,7 +20,7 @@ function Post() {
                  setNews(response.data.articles) 
                 // console.log(response.data.articles);
             } )
-    },[])
+    },[apiKey])
 
 
     
